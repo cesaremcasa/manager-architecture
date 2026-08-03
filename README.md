@@ -1,4 +1,14 @@
-# Manager / MGR Desk
+# Manager
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Status](https://img.shields.io/badge/status-in%20development-E36209?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-3C9A5F?style=for-the-badge)
+
+![Manager](https://www.mycelliumlab.com/assets/project-manager-hero.jpg)
 
 **Forward what matters. Know what to do next.**
 
@@ -7,6 +17,8 @@ A restaurant owner opens fifty emails, three POS exports and a stack of invoices
 A POS records what happened. Manager explains it.
 
 This repository documents the architecture. The implementation lives in a private repository.
+
+**[Project page on Mycellium Lab](https://www.mycelliumlab.com/manager)**
 
 ---
 
@@ -99,7 +111,11 @@ The implementation is private because it handles real tenant data. The design is
 
 Anyone can wire an LLM to an inbox. The question is what you let it decide. This repository is the answer to that question for a domain where a wrong number costs someone their margin.
 
-Part of [Mycellium Lab](https://mycelliumlab.com).
+Part of [Mycellium Lab](https://www.mycelliumlab.com). See the [Manager project page](https://www.mycelliumlab.com/manager).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
 
 ---
 

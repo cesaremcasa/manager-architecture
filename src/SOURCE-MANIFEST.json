@@ -137,6 +137,11 @@
       "path": "src/app/workers/workflows.py",
       "original_path": "apps/api/app/workers/workflows.py",
       "sha256": "196595bb81be79472f44ead1c1fbd3348ed511a2098661f6aae61ee7204d3c26"
+    },
+    {
+      "path": "src/app/ai/context.py",
+      "original_path": "apps/api/app/ai/context.py",
+      "sha256": "35fdc995af76d031999064aa9aa775c184b378d3dd7201387f1ef65fc8367c61"
     }
   ]
 }

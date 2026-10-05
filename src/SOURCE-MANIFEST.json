@@ -1,0 +1,142 @@
+{
+  "source_revision": "d2de4a2db54da516e82821cfc18a7f1efa1fb012",
+  "source_files": [
+    {
+      "path": "src/app/adapters/yelp.py",
+      "original_path": "apps/api/app/adapters/yelp.py",
+      "sha256": "db402fa7b4c5e62399ba517848c92cb9c86530b6debf5f24281dbb57f9b80031"
+    },
+    {
+      "path": "src/app/ai/extraction.py",
+      "original_path": "apps/api/app/ai/extraction.py",
+      "sha256": "c2785ba89cc52582c59049f59420ab468f248e7a50644eb258e15806377b7c7f"
+    },
+    {
+      "path": "src/app/config.py",
+      "original_path": "apps/api/app/config.py",
+      "sha256": "93f7c1203fa195dd4b09d9f59aebf98596b048f773e8cc8c3594bace1e409abc"
+    },
+    {
+      "path": "src/app/db.py",
+      "original_path": "apps/api/app/db.py",
+      "sha256": "b68295fca653aa4b64925a81e58013ff3908659b3b9457705c87ae8eee467056"
+    },
+    {
+      "path": "src/app/domain/brief.py",
+      "original_path": "apps/api/app/domain/brief.py",
+      "sha256": "f1551ea64e403ed766b92623c0cc703b60ace198e8091c88b8f87b753c91ec92"
+    },
+    {
+      "path": "src/app/domain/classification.py",
+      "original_path": "apps/api/app/domain/classification.py",
+      "sha256": "4be34d5acbe374ee0af5697b081fecce9fcbbf90c45ef435556368a48dd22906"
+    },
+    {
+      "path": "src/app/domain/invoices.py",
+      "original_path": "apps/api/app/domain/invoices.py",
+      "sha256": "fbb4740cad76bf65b42b23d2a4566baf37e15f3099acc2e3bafb0d62f7978b22"
+    },
+    {
+      "path": "src/app/domain/market.py",
+      "original_path": "apps/api/app/domain/market.py",
+      "sha256": "67beffb6e6aeeb880d2394f592831dec230db5ae46da6a263a6075f4aa8213d1"
+    },
+    {
+      "path": "src/app/domain/metrics.py",
+      "original_path": "apps/api/app/domain/metrics.py",
+      "sha256": "8b110fcf0c22221dd06719732d535a64b002cd685b2c88ed848ee9a9b7bc2840"
+    },
+    {
+      "path": "src/app/domain/sales.py",
+      "original_path": "apps/api/app/domain/sales.py",
+      "sha256": "330be7dff47b7ea5cd08ad2cb8d50ce1ad30a0b4677a354fad047185fa4a0d2b"
+    },
+    {
+      "path": "src/app/group_operations.py",
+      "original_path": "apps/api/app/group_operations.py",
+      "sha256": "7219a747ec73a65f732ed625332f3b7c7df450dc0fbf8432a4a857e7ea06d547"
+    },
+    {
+      "path": "src/app/groups.py",
+      "original_path": "apps/api/app/groups.py",
+      "sha256": "3e3744efb43e13eb959b6ba5ec15a4d6aa199f500ad6a4dd6b037a34ae3887f5"
+    },
+    {
+      "path": "src/app/inbound_security.py",
+      "original_path": "apps/api/app/inbound_security.py",
+      "sha256": "e2410c21744d08463522ad60d47b08570f7e27d2e83e6f44f43f4aeeecfdbaa7"
+    },
+    {
+      "path": "src/app/inbox.py",
+      "original_path": "apps/api/app/inbox.py",
+      "sha256": "7febf980f7bafed4e81dde6b86ad8539e94dd756eb53ae0ef7e228cd0a687be1"
+    },
+    {
+      "path": "src/app/ingestion.py",
+      "original_path": "apps/api/app/ingestion.py",
+      "sha256": "fc469c0ed0567952ec6ba3e270330da8f15b4328648379f2367d46cc8c121eda"
+    },
+    {
+      "path": "src/app/mcp_gateway.py",
+      "original_path": "apps/api/app/mcp_gateway.py",
+      "sha256": "78aba4694e7e25dc2348e77035e5b01dbb57cc806a3dc92f30731563c7f09329"
+    },
+    {
+      "path": "src/app/reconciler.py",
+      "original_path": "apps/api/app/reconciler.py",
+      "sha256": "4a21cdb9cdf019c957535349d8a57d8c05655e3e132148b714aeb0812c058373"
+    },
+    {
+      "path": "src/app/resend_client.py",
+      "original_path": "apps/api/app/resend_client.py",
+      "sha256": "df14089baaa49fa7ba1c8ba9de052d51fb67a72b208968cd94d80c8203b6b987"
+    },
+    {
+      "path": "src/app/resend_ingestion.py",
+      "original_path": "apps/api/app/resend_ingestion.py",
+      "sha256": "49e92f81d7a91b17166ff71f3cb8637b3f1795da4fb5137e09509275a7c011e0"
+    },
+    {
+      "path": "src/app/resend_webhook.py",
+      "original_path": "apps/api/app/resend_webhook.py",
+      "sha256": "be10ed1a06a25f5ddfeecacc7e665c9dd7033367ec3e36916a4161b4092a3c0f"
+    },
+    {
+      "path": "src/app/sales_summary.py",
+      "original_path": "apps/api/app/sales_summary.py",
+      "sha256": "aed163c24c6b1239070e7cc3fd39fe14580332ed9247de256e584f98323ce52f"
+    },
+    {
+      "path": "src/app/tenant.py",
+      "original_path": "apps/api/app/tenant.py",
+      "sha256": "a27955b38e7d9b58051dc06fbf6892c4bbf991c5543edf0c621fa6d8ba5db7a4"
+    },
+    {
+      "path": "src/app/workers/context.py",
+      "original_path": "apps/api/app/workers/context.py",
+      "sha256": "b3258221cb0ebddc72b9836dead9d80c9ee4d6dea5b3a77aa7ef5d7aa04126c2"
+    },
+    {
+      "path": "src/migrations/versions/0001_foundation.py",
+      "original_path": "apps/api/migrations/versions/0001_foundation.py",
+      "sha256": "db58a84ca0aa5776b26e9f19f45ff11c0a3136389d156f305353c976746a711d",
+      "original_sha256": "3ddd1725c43779c268680b4c5279249ff747ba4436a0245596843577bab3c69f",
+      "omitted": "Credential provisioning"
+    },
+    {
+      "path": "src/migrations/versions/0025_group_integrations_mcp.py",
+      "original_path": "apps/api/migrations/versions/0025_group_integrations_mcp.py",
+      "sha256": "c7098804ac9f6de1bffbaee5b0e2d59f53cdb4a9a080d8819231b411c5734cf6"
+    },
+    {
+      "path": "src/migrations/versions/0026_harden_group_roles_and_mcp.py",
+      "original_path": "apps/api/migrations/versions/0026_harden_group_roles_and_mcp.py",
+      "sha256": "81031be84c65ae7b98df28d39d786fde3a04fd75ab3059b2bab66fbab28b0619"
+    },
+    {
+      "path": "src/app/workers/workflows.py",
+      "original_path": "apps/api/app/workers/workflows.py",
+      "sha256": "196595bb81be79472f44ead1c1fbd3348ed511a2098661f6aae61ee7204d3c26"
+    }
+  ]
+}

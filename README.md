@@ -13,7 +13,6 @@ flowchart LR
   C --> D[Decimal calculations and review rules]
   D --> E[Daily brief and owner review]
   D --> F[Read-only group MCP]
-  G[Optional language model] --> E
 ```
 
 FastAPI accepts records and resolves restaurant identity server-side. Workers
@@ -22,9 +21,11 @@ reconciliation recovers email jobs from Postgres. Invoice totals and line
 arithmetic use `Decimal`; incomplete or inconsistent extractions move to review.
 
 Postgres stores tenant-scoped records. Code computes sales as numeric values
-by restaurant business day. Optional model-written prose is checked against
-those facts and falls back to a deterministic brief if validation fails. Group
-views and MCP expose bounded read-only summaries after member and role checks.
+by restaurant business day. The daily brief currently renders a deterministic template from those facts.
+Its renderer can also validate an injected text generator and fall back when
+figures do not match. Group views and MCP expose bounded read-only summaries
+after member and role checks. The optional AI analysis layer receives scoped
+aggregates rather than raw inbox contents.
 
 ## Engineering details
 
@@ -38,7 +39,7 @@ return self.gross_sales - self.discounts - self.comps - self.refunds
 Selected implementation:
 
 - Intake and normalization: [signed email event](src/app/resend_webhook.py), [email persistence](src/app/ingestion.py), [POS summary](src/app/sales_summary.py), [invoice extraction](src/app/ai/extraction.py) and [arithmetic checks](src/app/domain/invoices.py).
-- Decision layer: [Decimal sales](src/app/domain/sales.py), [daily metrics](src/app/domain/metrics.py), [brief workflow](src/app/workers/workflows.py) and [numeric validation](src/app/domain/brief.py).
+- Decision layer: [Decimal sales](src/app/domain/sales.py), [daily metrics](src/app/domain/metrics.py), [brief workflow](src/app/workers/workflows.py) and [numeric validation](src/app/domain/brief.py) and [AI context](src/app/ai/context.py).
 - Isolation and access: [tenant transaction code](src/app/db.py), [tenant RLS policy](src/migrations/versions/0001_foundation.py), [group RLS](src/migrations/versions/0025_group_integrations_mcp.py), [member guard](src/app/groups.py), [reconciliation](src/app/reconciler.py) and [read-only MCP](src/app/mcp_gateway.py).
 
 These selected source excerpts originate from implementation revision

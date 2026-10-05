@@ -1,0 +1,65 @@
+{
+  "source_revision": "d2de4a2db54da516e82821cfc18a7f1efa1fb012",
+  "source_files": [
+    {
+      "path": "demo/manager_source/app/config.py",
+      "original_path": "apps/api/app/config.py",
+      "sha256": "93f7c1203fa195dd4b09d9f59aebf98596b048f773e8cc8c3594bace1e409abc"
+    },
+    {
+      "path": "demo/manager_source/app/db.py",
+      "original_path": "apps/api/app/db.py",
+      "sha256": "b68295fca653aa4b64925a81e58013ff3908659b3b9457705c87ae8eee467056"
+    },
+    {
+      "path": "demo/manager_source/app/group_operations.py",
+      "original_path": "apps/api/app/group_operations.py",
+      "sha256": "7219a747ec73a65f732ed625332f3b7c7df450dc0fbf8432a4a857e7ea06d547"
+    },
+    {
+      "path": "demo/manager_source/app/groups.py",
+      "original_path": "apps/api/app/groups.py",
+      "sha256": "3e3744efb43e13eb959b6ba5ec15a4d6aa199f500ad6a4dd6b037a34ae3887f5"
+    },
+    {
+      "path": "demo/manager_source/app/mcp_gateway.py",
+      "original_path": "apps/api/app/mcp_gateway.py",
+      "sha256": "78aba4694e7e25dc2348e77035e5b01dbb57cc806a3dc92f30731563c7f09329"
+    },
+    {
+      "path": "demo/manager_source/app/tenant.py",
+      "original_path": "apps/api/app/tenant.py",
+      "sha256": "a27955b38e7d9b58051dc06fbf6892c4bbf991c5543edf0c621fa6d8ba5db7a4"
+    },
+    {
+      "path": "demo/manager_source/app/adapters/yelp.py",
+      "original_path": "apps/api/app/adapters/yelp.py",
+      "sha256": "db402fa7b4c5e62399ba517848c92cb9c86530b6debf5f24281dbb57f9b80031"
+    },
+    {
+      "path": "demo/manager_source/app/domain/market.py",
+      "original_path": "apps/api/app/domain/market.py",
+      "sha256": "67beffb6e6aeeb880d2394f592831dec230db5ae46da6a263a6075f4aa8213d1"
+    },
+    {
+      "path": "demo/manager_source/app/domain/sales.py",
+      "original_path": "apps/api/app/domain/sales.py",
+      "sha256": "330be7dff47b7ea5cd08ad2cb8d50ce1ad30a0b4677a354fad047185fa4a0d2b"
+    },
+    {
+      "path": "demo/manager_source/app/workers/context.py",
+      "original_path": "apps/api/app/workers/context.py",
+      "sha256": "b3258221cb0ebddc72b9836dead9d80c9ee4d6dea5b3a77aa7ef5d7aa04126c2"
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "demo/schema.sql",
+      "source_paths": [
+        "apps/api/migrations/versions/0001_foundation.py",
+        "apps/api/migrations/versions/0025_group_integrations_mcp.py"
+      ],
+      "note": "Reduced to the tables, policies and authorization function used by this synthetic demo; RLS policy expressions and membership function retain the source definitions."
+    }
+  ]
+}
